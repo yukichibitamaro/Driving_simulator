@@ -4,8 +4,8 @@
 class Car {
 public:
     Car() {
-        shape.setSize(sf::Vector2f(50, 30));
-        shape.setFillColor(sf::Color::Blue);
+        shape.setSize(sf::Vector2f(50, 70));
+        shape.setFillColor(sf::Color::Black);
         shape.setPosition(375, 270);
         velocity = 0.1f;
     }
